@@ -10,9 +10,11 @@ public class Text : MonoBehaviour
         
     }
 
+    int i;
+
     // Update is called once per frame
     void Update()
     {
-        
+        print(i++);   
     }
 }
